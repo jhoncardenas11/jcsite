@@ -1,0 +1,33 @@
+<!--Desktop nav-->
+<nav class="hide-on-med-and-down desktopNav">
+    <div class="nav-wrapper">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">{{ 'nav.home' | translate }}</a></li>
+            <li><a href="">Sobre mi</a></li>
+            <li><a href="">Conocimientos</a></li>
+            <li><a href="">Experiencia</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a (click)="changeLang('es')">ES</a></li>
+            <li><a (click)="changeLang('en')">EN</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--mobile nav-->
+<ul id="slide-out" class="sidenav">
+    <li>
+        <div class="user-view">
+            <a class="sidenav-close"><i class="material-icons">close</i></a>
+            <a routerLink="/home" class="sidenav-close"><h5>Jhon Cardenas C.</h5></a>
+        </div>
+    </li>
+    <li><div class="divider"></div></li>
+    <li><a routerLink="/" class="sidenav-close"><i class="material-icons">home</i>Inicio</a></li>
+    <li><a routerLink="/" class="sidenav-close"><i class="material-icons">account_circle</i>Sobre mi</a></li>
+    <li><a routerLink="/" class="sidenav-close"><i class="material-icons">assessment</i>Conocimientos</a></li>
+    <li><a routerLink="/" class="sidenav-close"><i class="material-icons">art_track</i>Experiencia</a></li>
+    <li><a routerLink="/" class="sidenav-close"><i class="material-icons">markunread_mailbox</i>Contacto</a></li>
+</ul>
+<nav class="mobileNav hide-on-large-only">
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
+</nav>
