@@ -1,8 +1,13 @@
 {
     "nav" : {
-        "home": "Hola"
+        "home": "Inicio",
+        "aboutMe": "Sobre mi",
+        "knowledge": "Conocimientos",
+        "experience": "Experiencia",
+        "contact": "Contacto"
     },
     "header": {
-        "title": "desarrollador"
+        "portfolio": "portafolio",
+        "title": "desarrollador front-end"
     }
 }

@@ -1,8 +1,13 @@
 {
     "nav" : {
-        "home": "Home"
+        "home": "Home",
+        "aboutMe": "About me",
+        "knowledge": "Knowledge",
+        "experience": "Experiencie",
+        "contact": "Contact"
     },
     "header": {
-        "title": "developer"
+        "portfolio": "portfolio",
+        "title": "front-end developer"
     }
 }
